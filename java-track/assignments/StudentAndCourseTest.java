@@ -192,6 +192,8 @@ public class StudentAndCourseTest extends TestCase {
 		}
 	}
 
+	
+	
 	@Test
 	public void testAverageGPA() {
 		for (int j = 0; j < 100; j++) {
@@ -214,6 +216,17 @@ public class StudentAndCourseTest extends TestCase {
 		}
 	}
 
+	
+//	@Test
+//	public void testGenerateRoster() {
+//		Course c = new Course("math", 3, 4);
+//		Student s1 = new Student("hello", 10, 9, 4.0);
+//		Student s2 = new Student("hello", 10, 9, 4.0);
+//		c.addStudent(s1);
+//		c.addStudent(s2);
+//		System.out.println(c.generateRoster());
+//	}
+	
 	@Test
 	public void testCourseToString() {
 		for (int i = 0; i < 100; i++) {
